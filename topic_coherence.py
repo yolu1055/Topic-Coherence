@@ -120,11 +120,9 @@ class TopicCoherence():
         f.close()
         
 if __name__ == '__main__':
-    #lam_path = "/Users/youlu/Documents/workspace/onlineldavb/wiki K50/lambda-CON.dat"
-    #vocab = file("./dictnostops.txt").readlines()
-
-    lam_path = "/Users/youlu/Documents/workspace/onlineldavb/pub K100/lambda-CON.dat"
-    vocab = file("./pubmed_vocabulary.txt").readlines()
+    
+    lam_path = ""
+    vocab = file("").readlines()
     V = len(vocab)
     M = 20
     K = 100
